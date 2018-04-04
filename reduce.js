@@ -1,9 +1,5 @@
-var numbers = [1, 2, 3,4, 5];
+var number;
 
-function sum(numbers) {
-    return numbers.reduce(function (sum, num) {
-        return sum + num;
-    });
+function sum(number) {
+
 }
-
-console.log(sum(numbers));
